@@ -32,13 +32,12 @@ time.sleep(3)
 # PUT YOUR PROFILE LINK HERE 
 driver.get("https://github.com/ExTTT")
 
-
 while True:
     text = driver.find_element_by_partial_link_text("following")
     text.click()
     time.sleep(3)
 
-    driver.find_element_by_xpath('/html/body/div[4]/main/div[2]/div/div[2]/div[2]/div/div[1]/div[3]/span/form[2]/input[2]  ')\
+    driver.find_element_by_xpath('/html/body/div[4]/main/div[2]/div/div[2]/div[2]/div/div[1]/div[3]/span/form[2]/input[2]')\
         .click()
     time.sleep(3)
     
