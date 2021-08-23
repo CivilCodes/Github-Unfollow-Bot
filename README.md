@@ -1,4 +1,4 @@
-# Unfollower-Github-Bot
+# Github-Unfollow-Bot
 
 # Info
 <p>
